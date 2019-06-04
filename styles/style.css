@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+  
+#header {
+  height: 50px;
+  width: 1280px;
+  padding: 5px 90px 5px 10px;
+  margin: 10px 20px;
+}
+
+#main {
+  height: 410px;
+  width: 1280px;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 20px;
+}
+ 
+#footer-1 {
+  height: 40px;
+  width: 1280px;
+  padding: 0px 2px 0px 2px;
+  margin: 0px ;
+  border: 1px solid #e8e8e8;
+  background-color: #f2f2f2;
+}
+
+#footer-2 {
+  height: 40px;
+  width: 1280px;
+  padding: 0px 2px 0px 2px;
+  margin: 0px ;
+  border: 1px solid #e8e8e8;
+  background-color: #f2f2f2;
+}
+  
+.t-box {
+  display: inline-block;
+  height: 35px;
+  padding: 2px 2px;
+  margin: 2px 2px;
+}
+
+#header .t-box {
+  float: right;
+}
+
+#g-logo {
+  padding: 5px 10px;
+  margin: auto;
+  width: 50%;
+}
+
+#search-bar {
+  padding: 5px 10px;
+  margin: auto;
+  width: 25%;
+}
+
+#offered {
+  padding: 5px 10px;
+  margin: auto;
+  width: 30%;
+}
+
+#submit {
+  padding: 5px 10px;
+  margin: auto;
+  width: 30%;
+}
+
+#submit input {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+.a-right {
+  position: relative;
+  left: 60%;
+}
