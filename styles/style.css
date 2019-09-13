@@ -1,97 +1,89 @@
 * {
   box-sizing: border-box;
 }
-  
-#header {
-  height: 50px;
-  width: 1280px;
-  padding: 5px 90px 5px 10px;
-  margin: 10px 20px;
+
+.viewport {
+  width: 100%;
+  min-width: 1139px;
+  min-height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+  display: block;
+  position: absolute;
 }
 
-#login-pic {
-  height: 50%;
-  width: 50%;
+.sub-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.jc-flexEnd {
+  justify-content: flex-end;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.top-nav {
+  width: 5%;
+  padding: 0;
+  margin: 1% 0;
+  display: flex;
+}
+
+.bot-nav {
+  justify-content: space-between;
+}
+
+.botNav-master {
+  padding: 1%;
+  margin: 0;
+  display: flex;
+}
+
+.botNav-sub {
+  margin: 0 10px;
+  display: flex;
+}
+
+.box-a {
+  padding: 0 1% 0 0;
+}
+
+.box-b {
+  padding: 0;
+  margin: 8% 0 2%;
+}
+
+.box-d {
+  margin: 2% 0;
+}
+
+#box-e {
   display: inline-block;
-  position: relative;
-  bottom: 10px;
-  left: 1050px;
+  margin: 0 1%;
 }
 
-#main {
-  height: 410px;
-  width: 1280px;
-  padding: 5px 10px 5px 10px;
-  margin: 10px 20px;
-}
- 
-#footer-1 {
-  height: 40px;
-  width: 1280px;
-  padding: 0px 2px 0px 2px;
-  margin: 0px ;
-  border: 1px solid #e8e8e8;
-  background-color: #f2f2f2;
-}
 
-#footer-2 {
-  height: 40px;
-  width: 1280px;
-  padding: 0px 2px 0px 2px;
-  margin: 0px ;
-  border: 1px solid #e8e8e8;
-  background-color: #f2f2f2;
-}
-  
-.t-box {
-  display: inline-block;
-  height: 35px;
-  padding: 2px 2px;
-  margin: 2px 2px;
-}
-
-#header .t-box {
-  display: inline-block;
-  position: relative;
-  bottom: 40px;
-  left: 300px;
-}
-
-#g-logo img{
-  height: 20%;
+#img2 {
   width: 20%;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  position: relative;
-  left: 38%;
+}
+
+#bottom {
+  background-color: #f2f2f2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   
 }
 
-#search-bar {
-  padding: 5px 10px;
-  margin: auto;
-  width: 25%;
+input {
+  width: 35%;
 }
 
-#offered {
-  padding: 5px 10px;
-  margin: auto;
-  width: 30%;
-}
-
-#submit {
-  padding: 5px 10px;
-  margin: auto;
-  width: 30%;
-}
-
-#submit input {
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 5px 10px;
-}
-
-.a-right {
-  position: relative;
-  left: 60%;
+.add-top-border {
+  border-top: 1px solid #e4e4e4;
 }
